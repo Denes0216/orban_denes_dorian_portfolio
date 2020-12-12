@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.csomagolo{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    justify-items:center ;
+}
+.tartalom{
+    grid-column: span 12;
+}
+
+div.kep{
+    grid-column: span 3;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+div.szoveg{
+    grid-column: span 9;
+    width: 70%;
+    background-color:rgba(0,0,0,0.2);
+    box-shadow: 10px 8px 10px 8px black;
+    border: 1px solid black;
+
+}
+.grafikaimg{
+    height: 50%;
+    border: 5px solid grey;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: none;
+
+}
+.kepkozep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    box-shadow: #333;
+
+}
+.p2{
+    text-align: center;
+    margin-top: 100px;
+    text-decoration: none;
+    border: 1px solid black;
+
+
+}
+body, html {
+    height: 100%;
+  }
+  
+.hatter {
+    background-image: url("hatter.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.kozep{
+    width: 500px;
+}  
+
+.meret{
+    width: 200px;
+    border: 1px solid black;
+    box-shadow:5px 10px #302f2f;
+}
+
+.kerekit{
+    border-radius: 50%;
+}
+.oszlop {
+    float: left;
+    width: 10%;
+    padding: 100px;
+    margin-left: 10%;
+  }
+  .sor::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h1{
+      margin-top: 50px;
+  }
